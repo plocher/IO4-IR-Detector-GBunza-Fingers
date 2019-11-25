@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="49" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="49" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -835,10 +835,70 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="FRAME2" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME3" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J2" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME4" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT2" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED2" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J3" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME5" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT3" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED3" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J4" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME6" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT4" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED4" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J5" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME7" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT5" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED5" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J6" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME8" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT6" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED6" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J7" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME9" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT7" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED7" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J8" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME10" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT8" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED8" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J9" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME11" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT9" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED9" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J10" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME12" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT10" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED10" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J11" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME13" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT11" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED11" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J12" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME14" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT12" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED12" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J13" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME15" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT13" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED13" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J14" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME16" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT14" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED14" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J15" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="FRAME17" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
+<part name="T.AMBIENT15" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="T.DETECTED15" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
+<part name="J16" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -849,8 +909,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <text x="241.808" y="6.096" size="2.54" layer="91">A</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="FRAME" x="0" y="0"/>
-<instance part="FRAME1" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="FRAME2" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME2" gate="FRAME_CONTENT" x="147.32" y="0"/>
 <instance part="T.AMBIENT" gate="G$1" x="119.38" y="96.52" smashed="yes">
 <attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -891,6 +951,816 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME3" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME3" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT1" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED1" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J2" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="T.AMBIENT1" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="T.DETECTED1" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="T.DETECTED1" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="T.AMBIENT1" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME4" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME4" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT2" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED2" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J3" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$5" class="0">
+<segment>
+<pinref part="T.AMBIENT2" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="T.DETECTED2" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="T.DETECTED2" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="T.AMBIENT2" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME5" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME5" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT3" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED3" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J4" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$9" class="0">
+<segment>
+<pinref part="T.AMBIENT3" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="T.DETECTED3" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="T.DETECTED3" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="T.AMBIENT3" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME6" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME6" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT4" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED4" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J5" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$17" class="0">
+<segment>
+<pinref part="T.AMBIENT4" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="T.DETECTED4" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="T.DETECTED4" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="T.AMBIENT4" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME7" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME7" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT5" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED5" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J6" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$21" class="0">
+<segment>
+<pinref part="T.AMBIENT5" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="T.DETECTED5" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="T.DETECTED5" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="T.AMBIENT5" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME8" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME8" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT6" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED6" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J7" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$25" class="0">
+<segment>
+<pinref part="T.AMBIENT6" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="T.DETECTED6" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="T.DETECTED6" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="T.AMBIENT6" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME9" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME9" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT7" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED7" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J8" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$29" class="0">
+<segment>
+<pinref part="T.AMBIENT7" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="T.DETECTED7" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="T.DETECTED7" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="T.AMBIENT7" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME10" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME10" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT8" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED8" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J9" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$33" class="0">
+<segment>
+<pinref part="T.AMBIENT8" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="T.DETECTED8" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="T.DETECTED8" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="T.AMBIENT8" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME11" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME11" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT9" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED9" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J10" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$37" class="0">
+<segment>
+<pinref part="T.AMBIENT9" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="T.DETECTED9" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="T.DETECTED9" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="T.AMBIENT9" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME12" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME12" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT10" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED10" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J11" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$41" class="0">
+<segment>
+<pinref part="T.AMBIENT10" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="T.DETECTED10" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="T.DETECTED10" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="T.AMBIENT10" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME13" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME13" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT11" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED11" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J12" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$45" class="0">
+<segment>
+<pinref part="T.AMBIENT11" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="T.DETECTED11" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="T.DETECTED11" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="T.AMBIENT11" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME14" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME14" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT12" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED12" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J13" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$49" class="0">
+<segment>
+<pinref part="T.AMBIENT12" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J13" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="T.DETECTED12" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="T.DETECTED12" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J13" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="T.AMBIENT12" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J13" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME15" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME15" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT13" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED13" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J14" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$53" class="0">
+<segment>
+<pinref part="T.AMBIENT13" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J14" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="T.DETECTED13" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="T.DETECTED13" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J14" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="T.AMBIENT13" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J14" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME16" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME16" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT14" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED14" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J15" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$57" class="0">
+<segment>
+<pinref part="T.AMBIENT14" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="T.DETECTED14" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="T.DETECTED14" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="T.AMBIENT14" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="3"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="151.13" y="19.558" size="2.54" layer="91">Ambient Light detector
+(after Geoff Bunza)</text>
+<text x="241.3" y="12.7" size="2.54" layer="91">1.0</text>
+<text x="241.808" y="6.096" size="2.54" layer="91">A</text>
+</plain>
+<instances>
+<instance part="FRAME17" gate="FRAME" x="0" y="0"/>
+<instance part="FRAME17" gate="FRAME_CONTENT" x="147.32" y="0"/>
+<instance part="T.AMBIENT15" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="NAME" x="117.856" y="82.55" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="T.DETECTED15" gate="G$1" x="127" y="96.52" smashed="yes">
+<attribute name="VALUE" x="133.35" y="104.14" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="133.096" y="83.058" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="J16" gate="G$1" x="127" y="81.28" rot="R90"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$61" class="0">
+<segment>
+<pinref part="T.AMBIENT15" gate="G$1" pin="E1"/>
+<wire x1="121.92" y1="86.36" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="T.DETECTED15" gate="G$1" pin="E1"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="T.DETECTED15" gate="G$1" pin="C1"/>
+<wire x1="127" y1="86.36" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="T.AMBIENT15" gate="G$1" pin="C1"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>
