@@ -1,4 +1,5 @@
 IR Detector subassemblies made to look like N or HO scale ties.
 
 
-Initial variation based on GBunza's design.  Array generated via ULP needed lots of manual tweeking for DFM and strength.
+Added registration holes to allow solder paste application with stencil.
+
