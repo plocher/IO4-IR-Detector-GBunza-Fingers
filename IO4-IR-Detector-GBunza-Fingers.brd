@@ -8,17 +8,17 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -37,12 +37,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -634,7 +634,7 @@ design rules under a new name.
 <element name="T.DETECTED" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="6.096" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="6.096" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J1" library="SPCoast" package="1X04_LOCK" value="" x="2.413" y="51.879" smashed="yes">
+<element name="J1" library="SPCoast" package="1X04_LOCK" value="0.100" x="2.413" y="51.879" smashed="yes">
 <attribute name="VALUE" x="1.143" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT1" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="2.794" y="45.021" smashed="yes" rot="R180">
@@ -643,7 +643,7 @@ design rules under a new name.
 <element name="T.DETECTED1" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="5.969" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="5.969" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J2" library="SPCoast" package="1X04_LOCK" value="" x="9.652" y="47.561" smashed="yes" rot="R180">
+<element name="J2" library="SPCoast" package="1X04_LOCK" value="0.100" x="9.652" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="10.922" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT2" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="21.336" y="54.419" smashed="yes">
@@ -652,7 +652,7 @@ design rules under a new name.
 <element name="T.DETECTED2" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="18.161" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="18.161" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J3" library="SPCoast" package="1X04_LOCK" value="" x="14.478" y="51.879" smashed="yes">
+<element name="J3" library="SPCoast" package="1X04_LOCK" value="0.100" x="14.478" y="51.879" smashed="yes">
 <attribute name="VALUE" x="13.208" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT3" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="14.859" y="45.021" smashed="yes" rot="R180">
@@ -661,7 +661,7 @@ design rules under a new name.
 <element name="T.DETECTED3" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="18.034" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="18.034" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J4" library="SPCoast" package="1X04_LOCK" value="" x="21.717" y="47.561" smashed="yes" rot="R180">
+<element name="J4" library="SPCoast" package="1X04_LOCK" value="0.100" x="21.717" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="22.987" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT4" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="33.401" y="54.419" smashed="yes">
@@ -670,7 +670,7 @@ design rules under a new name.
 <element name="T.DETECTED4" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="30.226" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="30.226" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J5" library="SPCoast" package="1X04_LOCK" value="" x="26.543" y="51.879" smashed="yes">
+<element name="J5" library="SPCoast" package="1X04_LOCK" value="0.100" x="26.543" y="51.879" smashed="yes">
 <attribute name="VALUE" x="25.273" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT5" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="26.924" y="45.021" smashed="yes" rot="R180">
@@ -679,7 +679,7 @@ design rules under a new name.
 <element name="T.DETECTED5" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="30.099" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="30.099" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J6" library="SPCoast" package="1X04_LOCK" value="" x="33.782" y="47.561" smashed="yes" rot="R180">
+<element name="J6" library="SPCoast" package="1X04_LOCK" value="0.100" x="33.782" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="35.052" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT6" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="38.989" y="45.021" smashed="yes" rot="R180">
@@ -688,7 +688,7 @@ design rules under a new name.
 <element name="T.DETECTED6" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="42.164" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="42.164" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J7" library="SPCoast" package="1X04_LOCK" value="" x="45.847" y="47.561" smashed="yes" rot="R180">
+<element name="J7" library="SPCoast" package="1X04_LOCK" value="0.100" x="45.847" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="47.117" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT7" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="45.466" y="54.419" smashed="yes">
@@ -697,7 +697,7 @@ design rules under a new name.
 <element name="T.DETECTED7" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="42.291" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="42.291" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J8" library="SPCoast" package="1X04_LOCK" value="" x="38.608" y="51.879" smashed="yes">
+<element name="J8" library="SPCoast" package="1X04_LOCK" value="0.100" x="38.608" y="51.879" smashed="yes">
 <attribute name="VALUE" x="37.338" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT8" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="69.596" y="54.419" smashed="yes">
@@ -706,7 +706,7 @@ design rules under a new name.
 <element name="T.DETECTED8" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="66.421" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="66.421" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J9" library="SPCoast" package="1X04_LOCK" value="" x="62.738" y="51.879" smashed="yes">
+<element name="J9" library="SPCoast" package="1X04_LOCK" value="0.100" x="62.738" y="51.879" smashed="yes">
 <attribute name="VALUE" x="61.468" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT9" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="63.119" y="45.021" smashed="yes" rot="R180">
@@ -715,7 +715,7 @@ design rules under a new name.
 <element name="T.DETECTED9" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="66.294" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="66.294" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J10" library="SPCoast" package="1X04_LOCK" value="" x="69.977" y="47.561" smashed="yes" rot="R180">
+<element name="J10" library="SPCoast" package="1X04_LOCK" value="0.100" x="69.977" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="71.247" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT10" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="57.531" y="54.419" smashed="yes">
@@ -724,7 +724,7 @@ design rules under a new name.
 <element name="T.DETECTED10" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="54.356" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="54.356" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J11" library="SPCoast" package="1X04_LOCK" value="" x="50.673" y="51.879" smashed="yes">
+<element name="J11" library="SPCoast" package="1X04_LOCK" value="0.100" x="50.673" y="51.879" smashed="yes">
 <attribute name="VALUE" x="49.403" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT11" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="51.054" y="45.021" smashed="yes" rot="R180">
@@ -733,7 +733,7 @@ design rules under a new name.
 <element name="T.DETECTED11" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="54.229" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="54.229" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J12" library="SPCoast" package="1X04_LOCK" value="" x="57.912" y="47.561" smashed="yes" rot="R180">
+<element name="J12" library="SPCoast" package="1X04_LOCK" value="0.100" x="57.912" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="59.182" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT12" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="75.184" y="45.021" smashed="yes" rot="R180">
@@ -742,7 +742,7 @@ design rules under a new name.
 <element name="T.DETECTED12" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="78.359" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="78.359" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J13" library="SPCoast" package="1X04_LOCK" value="" x="82.042" y="47.561" smashed="yes" rot="R180">
+<element name="J13" library="SPCoast" package="1X04_LOCK" value="0.100" x="82.042" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="83.312" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT13" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="81.661" y="54.419" smashed="yes">
@@ -751,7 +751,7 @@ design rules under a new name.
 <element name="T.DETECTED13" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="78.486" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="78.486" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J14" library="SPCoast" package="1X04_LOCK" value="" x="74.803" y="51.879" smashed="yes">
+<element name="J14" library="SPCoast" package="1X04_LOCK" value="0.100" x="74.803" y="51.879" smashed="yes">
 <attribute name="VALUE" x="73.533" y="48.704" size="1.27" layer="27"/>
 </element>
 <element name="T.AMBIENT14" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="87.249" y="45.021" smashed="yes" rot="R180">
@@ -760,7 +760,7 @@ design rules under a new name.
 <element name="T.DETECTED14" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="90.424" y="30.289" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-11836" x="90.424" y="30.289" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J15" library="SPCoast" package="1X04_LOCK" value="" x="94.107" y="47.561" smashed="yes" rot="R180">
+<element name="J15" library="SPCoast" package="1X04_LOCK" value="0.100" x="94.107" y="47.561" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.377" y="50.736" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T.AMBIENT15" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="93.726" y="54.419" smashed="yes">
@@ -769,7 +769,7 @@ design rules under a new name.
 <element name="T.DETECTED15" library="SparkFun-Sensors" package="ALS-PT19" value="PT19-21C/L41" x="90.551" y="69.151" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-11836" x="90.551" y="69.151" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J16" library="SPCoast" package="1X04_LOCK" value="" x="86.868" y="51.879" smashed="yes">
+<element name="J16" library="SPCoast" package="1X04_LOCK" value="0.100" x="86.868" y="51.879" smashed="yes">
 <attribute name="VALUE" x="85.598" y="48.704" size="1.27" layer="27"/>
 </element>
 </elements>

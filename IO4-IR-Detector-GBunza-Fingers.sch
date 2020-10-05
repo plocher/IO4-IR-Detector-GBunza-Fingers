@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -838,67 +838,67 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <part name="FRAME2" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME3" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J2" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J2" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME4" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT2" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED2" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J3" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J3" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME5" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT3" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED3" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J4" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J4" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME6" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT4" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED4" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J5" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J5" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME7" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT5" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED5" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J6" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J6" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME8" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT6" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED6" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J7" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J7" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME9" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT7" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED7" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J8" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J8" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME10" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT8" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED8" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J9" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J9" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME11" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT9" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED9" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J10" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J10" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME12" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT10" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED10" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J11" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J11" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME13" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT11" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED11" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J12" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J12" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME14" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT12" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED12" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J13" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J13" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME15" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT13" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED13" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J14" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J14" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME16" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT14" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED14" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J15" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J15" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="FRAME17" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="T.AMBIENT15" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
 <part name="T.DETECTED15" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="ALS" value="PT19-21C/L41"/>
-<part name="J16" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK"/>
+<part name="J16" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 </parts>
 <sheets>
 <sheet>
